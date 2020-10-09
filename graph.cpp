@@ -7,7 +7,7 @@
 
 using namespace chrono;
 
-///////////////////////////////////////////////////////////////////////////
+
 void CVertex::AddEdge(const TEdgeID id) { edge_list.insert(id); }
 
 void CVertex::RebuildEdgeList() {
